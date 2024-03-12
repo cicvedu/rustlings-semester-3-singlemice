@@ -7,6 +7,7 @@ authors = [
   "Carol (Nichols || Goulding) <carol.nichols@gmail.com>",
 ]
 edition = "2021"
+build = "exercises/tests/build.rs"
 
 [dependencies]
 argh = "0.1"
