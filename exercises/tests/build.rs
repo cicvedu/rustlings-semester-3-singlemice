@@ -15,7 +15,7 @@ fn main() {
         "cargo:{},rustc-env=TEST_FOO=1",
         timestamp
     );
-    println!("cargo:{}", your_command);
+    println!("{}", your_command);
 
     // In tests8, we should enable "pass" feature to make the
     // testcase return early. Fill in the command to tell
